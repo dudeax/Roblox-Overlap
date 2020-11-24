@@ -3,17 +3,16 @@ A module written for Roblox Luau that make detecting part overlap for simple pri
 
 # API
 Overlap.GetMeshFromBlock(Part)
-  Returns a new mesh object from a part asssuming that part has a block form factor,
-  I.e. the part is a rectangular prism.
+*  Returns a new mesh object from a part asssuming that part has a block form factor, I.e. the part is a rectangular prism.
 
 Overlap.GetMeshFromWedge(Part)
-  Returns a new mesh object from a part assuming it has a wedge shape
+*  Returns a new mesh object from a part assuming it has a wedge shape
 
 Overlap.GetMeshFromCornerWedge(Part)
-  Returns a new mesh object from a part assuming it has a corner wedge shape
+*  Returns a new mesh object from a part assuming it has a corner wedge shape
 
 Overlap.TestConvexMeshOverlap(meshA, meshB)
-  Returns true if the two meshes overlap, I.e. they share some of the same volume.
+*  Returns true if the two meshes overlap, I.e. they share some of the same volume. Otherwise returns false.
 
 # Usage Example:
 
