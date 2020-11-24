@@ -26,7 +26,7 @@ local blockMeshRepresentation = Overlap.GetMeshFromBlock(block)
 local wedgeMeshRepresentation = Overlap.GetMeshFromWedge(wedge)
 
 if (Overlap.TestConvexMeshOverlap(meshA, meshB)) then
-  print("Parts overlap)
+  print("Parts overlap")
 else
   print("Parts do not overlap")
 end
