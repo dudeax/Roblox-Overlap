@@ -15,7 +15,7 @@ Overlap.TestConvexMeshOverlap(meshA, meshB)
 *  Returns true if the two meshes overlap, I.e. they share some of the same volume. Otherwise returns false.
 
 # Usage Example:
-
+```lua
 local overlap = require(path-to-overlap-module-here)
 
 local block = game.workspace.part  -- A part with a block formfactor
@@ -30,3 +30,4 @@ if (Overlap.TestConvexMeshOverlap(meshA, meshB)) then
 else
   print("Parts do not overlap")
 end
+```
